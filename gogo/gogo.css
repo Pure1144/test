@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: green;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    width: 1100px;
+    height: 990px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* .container1 img {
+    height: 25px;
+    padding-top: 10px;
+
+} */
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.header-items {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+.header-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.sumnuu {
+    height: 10px;
+    width: 11px;
+
+
+
+}
+
+.medee {
+    display: flex;
+}
+
+.search {
+    height: 80px;
+}
+
+.haih {
+    height: 25px;
+    width: 25px;
+}
+
+
+
+.gg {
+    display: flex;
+    align-items: center;
+}
+
+.gogoicon {
+    height: 40px;
+}
+
+.itemmn {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 5px;
+    padding: 0;
+
+
+}
+
+.textgreen {
+    color: greenyellow;
+}
+
+.classtoo {
+    margin: 0;
+    padding: -10px;
+
+}
+
+.Niigem {
+    border: 1px solid black;
+    /* height: 30px; */
+    width: fit-content;
+    padding: 5px 15px;
+    color:aliceblue;
+    transition-duration: 1s;
+    /* transition-delay: 3s; */
+    border-radius: 100px;
+    background: rgb(227, 42, 94);
+    background: linear-gradient(90deg, rgba(227, 42, 94, 1) 14%, rgba(255, 121, 0, 1) 93%);
+}
+
+.Niigem:hover {
+    /* transform: scale(1.5); */
+    background-color: red;
+    padding: 5px 25px;
+}
+
+.first {
+
+
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin-top: 20px;
+
+}
+.first:hover{
+    color: gray; /* ungu solison*/
+}
+
+
+.para {
+
+
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin-top: 50px;
+
+}
+
+.main-news {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    margin-bottom: 15px;
+
+}
+
+.main-news-img {
+    width: 75%;
+    margin-top: 50px;
+    overflow: hidden;          /* 10% томруулна.*/
+    position: relative;
+}
+
+.main-news-img img {
+    width: 100%;
+    transition: all 1s;
+}
+
+.main-news-img:hover img {
+    transform: scale(1.1);      /* 10% томруулна.*/
+}
+
+.main-news-text {
+    width: 50%;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+
+
+.maincomment {
+
+    width: fit-content;
+    height: 20px;
+    padding: 1px 5px;
+
+    transition-duration: 1s;
+    border-radius: 100px;
+    background: rgb(112, 110, 110);
+    display: flex;
+    align-items: center;
+
+
+}
+
+.maincomment:hover {
+    /* transform: scale(1.5); */
+    background-color: white;
+    padding: 3px 10px;
+
+
+}
+
+.maincomment:hover .turnleft {
+    transform: rotate(45deg);
+}
+
+.turnleft {
+    width: 30px;
+}
+
+.comm {
+    height: 25px;
+
+
+
+}
+
+.toontemdeg {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.divcomment {
+    display: flex;
+    gap: 10px;
+}
+
+.komment {
+    display: flex;
+
+    gap: 10px;
+}
+
+.allcomment {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 1px;
+
+}
+
+.allcoment:hover {
+
+    background-color: red;
+    padding: 5px 25px;
+
+}
+
+.main-news-img-hidden {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-news-img:hover .main-news-img-hidden {
+    visibility: visible;
+}
+
+
+                  /* ded medenuud*/
+.card{
+    width: 95%;
+    height: 270px;
+    margin-left: 50px;
+    font-size: larger;
+    display: flex;
+    gap: 10px;
+    
+}
+.prius{
+    width: 100%;
+    overflow: hidden;          /* 10% томруулна.*/
+    position: relative;
+    border-radius: 2%;
+}
+
+.prius img {
+    width: 100%;
+    transition: all 1s;
+}
+
+.prius:hover img {
+    transform: scale(1.1);      /* 10% томруулна.*/
+}
+.delgerengui {     /* hidden hiih*/
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.prius:hover .delgerengui {
+    visibility: visible;
+}
+.cardmedee{
+    display: flex;
+ 
+    /* Section 2*/
+
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container2 {
+    width: 1100px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+
+}
+.story1{
+ font-size: 30px;
+ color: black;
+}
+.story2{
+    font-size: 25px;
+    color: white;
+    background-color: #00b0f4;
+    gap: 3px;
+    border-radius: 50;
+   }
+.story{
+    display: flex;
+    padding-top: 0;
+
+   }
+
+
+
