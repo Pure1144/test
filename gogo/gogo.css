@@ -371,7 +371,7 @@ body {
 
 .story {
     display: flex;
-   margin-bottom: 15px;
+    margin-bottom: 15px;
     margin-top: 30px;
 
 }
@@ -392,7 +392,7 @@ body {
     /* 10% томруулна.*/
     position: relative;
     border-radius: 2%;
-    
+
 
 }
 
@@ -427,7 +427,7 @@ body {
 }
 
 .Too {
-    font-size:smaller;
+    font-size: smaller;
     color: azure;
     position: absolute;
     bottom: 0;
@@ -441,10 +441,11 @@ body {
     display: flex;
     gap: 5px;
 }
-         /*Section 3*/
- 
- 
- .section3 {
+
+/*Section 3*/
+
+
+.section3 {
     display: flex;
     /* justify-content: center; */
     /* height: 100vh; */
@@ -452,18 +453,20 @@ body {
     height: 4251.37;
     margin: auto;
     background-color: aqua;
-   
+
     justify-content: center;
-   
+
 }
 
-   .container3 {
+.container3 {
     width: 1100px;
-    background-color:white;
-   
-   
-} 
- /*.card2{
+    background-color: white;
+    display: flex;
+
+
+}
+
+/*.card2{
         width: 95%;
         height: 270px;
         font-size: larger;
@@ -475,45 +478,103 @@ body {
     color: #407ce8;
     font-size: 13px;
 }*/
-.unuudur { 
+.unuudur {
     color: #407ce8;
     font-size: 8px;
-   
+
 }
-.udur { 
+
+.udur {
     color: #407ce8;
     font-size: 6px;
 }
-.navch { 
-display: flex;
-justify-content: left;
-gap: 5px;
-margin-top: 10px;
-   
+
+.navch {
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    margin-top: 10px;
+
 }
-.blue { 
+
+.blue {
     color: #407ce8;
     background-color: #407ce8;
     height: 7px;
     width: 103.81px;
     border-radius: 20px;
     border-color: #407ce8;
-   
+
 }
 
-.gray { 
-    
-    background-color:#EFEFEF;
+.gray {
+
+    background-color: #EFEFEF;;
     height: 7px;
     width: 103.81px;
     border-radius: 20px;
     border-color: #EFEFEF;
-   
+
 }
-.udur { 
-    color: #EFEFEF;
+
+.udur {
+    color: #407ce8;
     font-size: 6px;
+    padding-left: 10px;
 }
 
+.uchigdur {
+    color:#EFEFEF;
+    font-size: 6px;
+    padding-left: 10px;
+}
 
+.deeshee:hover {
+    transform: translateY(-2px);
+}
 
+.deeshee:hover .gray {
+    background-color: #407ce8;
+}
+
+.deeshee:hover .uchigdur {
+    color: #407ce8;
+}
+.huuchinmedee{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+  
+    
+  
+}
+.huuchinmedee1{
+  display: flex;
+  padding-top: 40px;
+  gap: 15px;
+}
+.calend {
+    color:#5b5656;
+    height: 30px;
+    width: 30px;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    font-size: 10px;
+    padding-left: 7px;
+ 
+    }
+
+.calend1:hover .calend {
+background-color: #407ce8;
+}
+.left{
+    width: 690px;
+    height: 5000px;
+    background-color: #5b5656;
+}
+.right{
+    width: 410px;
+    height: 3301.37px;
+    background-color: #c7e669;
+ 
+}
