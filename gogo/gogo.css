@@ -113,7 +113,7 @@ body {
     /* height: 30px; */
     width: fit-content;
     padding: 5px 15px;
-    color:aliceblue;
+    color: aliceblue;
     transition-duration: 1s;
     /* transition-delay: 3s; */
     border-radius: 100px;
@@ -136,8 +136,10 @@ body {
     margin-top: 20px;
 
 }
-.first:hover{
-    color: gray; /* ungu solison*/
+
+.first:hover {
+    color: gray;
+    /* ungu solison*/
 }
 
 
@@ -162,7 +164,8 @@ body {
 .main-news-img {
     width: 75%;
     margin-top: 50px;
-    overflow: hidden;          /* 10% томруулна.*/
+    overflow: hidden;
+    /* 10% томруулна.*/
     position: relative;
 }
 
@@ -172,7 +175,8 @@ body {
 }
 
 .main-news-img:hover img {
-    transform: scale(1.1);      /* 10% томруулна.*/
+    transform: scale(1.1);
+    /* 10% томруулна.*/
 }
 
 .main-news-text {
@@ -273,19 +277,21 @@ body {
 }
 
 
-                  /* ded medenuud*/
-.card{
+/* ded medenuud*/
+.card {
     width: 95%;
     height: 270px;
     margin-left: 50px;
     font-size: larger;
     display: flex;
     gap: 10px;
-    
+
 }
-.prius{
+
+.prius {
     width: 100%;
-    overflow: hidden;          /* 10% томруулна.*/
+    overflow: hidden;
+    /* 10% томруулна.*/
     position: relative;
     border-radius: 2%;
 }
@@ -296,9 +302,12 @@ body {
 }
 
 .prius:hover img {
-    transform: scale(1.1);      /* 10% томруулна.*/
+    transform: scale(1.1);
+    /* 10% томруулна.*/
 }
-.delgerengui {     /* hidden hiih*/
+
+.delgerengui {
+    /* hidden hiih*/
     visibility: hidden;
     position: absolute;
     top: 0;
@@ -315,12 +324,14 @@ body {
 .prius:hover .delgerengui {
     visibility: visible;
 }
-.cardmedee{
+
+.cardmedee {
     display: flex;
- 
+
     /* Section 2*/
 
 }
+
 .section2 {
     display: flex;
     /* justify-content: center; */
@@ -345,66 +356,163 @@ body {
         gap: 10px;
         
     }  */
-.story1{
- font-size: 30px;
- color: black;
+.story1 {
+    font-size: 30px;
+    color: black;
 }
-.story2{
+
+.story2 {
     font-size: 25px;
     color: white;
     background-color: #00b0f4;
     gap: 3px;
     border-radius: 50;
-   }
-.story{
-    display: flex;
-    padding-top: 0;
+}
 
-   }
-   .gogostmp{
+.story {
+    display: flex;
+   margin-bottom: 15px;
+    margin-top: 30px;
+
+}
+
+.gogostmp {
     height: 30px;
     position: absolute;
     margin: 10px;
 
-   }
-   .eye{
-    height: 100px;
-    position: absolute;
-    margin: 100px;
-    background-color: rgba(0, 0, 0, 0.1);
-
-   }
-
-   .zurgaanzurag{
-    width: 170.8px;
-    height: 235px;
-    overflow: hidden;          /* 10% томруулна.*/
-    position: relative;
-    border-radius: 2%;
 }
 
-.zurgaanzurag>img {          /* ehnii zurgiig.*/
+
+
+.zurgaanzurag {
+    width: 179px;
+    height: 235px;
+    overflow: hidden;
+    /* 10% томруулна.*/
+    position: relative;
+    border-radius: 2%;
+    
+
+}
+
+.zurgaanzurag>img {
+    /* ehnii zurgiig.*/
     width: 100%;
     height: 100%;
-    transition: all 1s;
+    transition: all 2s;
     position: absolute;
     /* z-index: -1; */
 }
 
-.zurgaanzurag:hover> img {
-    transform: scale(1.1);      /* 10% томруулна.*/
+.zurgaanzurag:hover .coca {
+    transform: translateY(-25px);
+    height: 70px;
 }
-.coca {    
+
+.zurgaanzurag:hover>img {
+    transform: scale(1.1);
+    /* 10% томруулна.*/
+}
+
+.coca {
     z-index: 2;
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     font-size: 15px;
     color: white;
+    height: 35px;
+    overflow: hidden;
+    transition: all 1s;
+}
 
-  
-  
+.Too {
+    font-size:smaller;
+    color: azure;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: 8px;
+
+}
+
+
+.zurgaaz {
+    display: flex;
+    gap: 5px;
+}
+         /*Section 3*/
  
+ 
+ .section3 {
+    display: flex;
+    /* justify-content: center; */
+    /* height: 100vh; */
+    width: 1406px;
+    height: 4251.37;
+    margin: auto;
+    background-color: aqua;
+   
+    justify-content: center;
+   
+}
+
+   .container3 {
+    width: 1100px;
+    background-color:white;
+   
+   
+} 
+ /*.card2{
+        width: 95%;
+        height: 270px;
+        font-size: larger;
+        display: flex;
+        gap: 10px;
+        
+    }   */
+/*.blue { 
+    color: #407ce8;
+    font-size: 13px;
+}*/
+.unuudur { 
+    color: #407ce8;
+    font-size: 8px;
+   
+}
+.udur { 
+    color: #407ce8;
+    font-size: 6px;
+}
+.navch { 
+display: flex;
+justify-content: left;
+gap: 5px;
+margin-top: 10px;
+   
+}
+.blue { 
+    color: #407ce8;
+    background-color: #407ce8;
+    height: 7px;
+    width: 103.81px;
+    border-radius: 20px;
+    border-color: #407ce8;
+   
+}
+
+.gray { 
     
+    background-color:#EFEFEF;
+    height: 7px;
+    width: 103.81px;
+    border-radius: 20px;
+    border-color: #EFEFEF;
+   
+}
+.udur { 
+    color: #EFEFEF;
+    font-size: 6px;
 }
 
 
