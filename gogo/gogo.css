@@ -7,6 +7,7 @@
 
 body {
     background: green;
+    font-family: Helvetica Neue, sans-serif;
 }
 
 .section1 {
@@ -462,6 +463,7 @@ body {
     width: 1100px;
     background-color: white;
     display: flex;
+   
 
 
 }
@@ -553,6 +555,11 @@ body {
   padding-top: 40px;
   gap: 15px;
 }
+.huuchinmedee3{
+    display: flex;
+    gap: 15px;
+    
+  }
 .calend {
     color:#5b5656;
     height: 30px;
@@ -568,13 +575,118 @@ body {
 background-color: #407ce8;
 }
 .left{
-    width: 690px;
+    width: 70%;          /* conteiner3 undsen delgetsee 2 huvaah*/
     height: 5000px;
     background-color: #5b5656;
 }
 .right{
-    width: 410px;
+    width: 30%;
     height: 3301.37px;
     background-color: #c7e669;
- 
+    display: flex;
+    justify-content: end;
+    border-left: 1px solid red;  /* zuun border ungu hemjee uguv*/
+
 }
+
+.ontsloh{
+    width: 90%;
+    background-color: #00b0f4;
+    height: 100%;
+}
+.ikhmedee {
+    display: flex;
+    margin-top: 15px;
+}
+.ikhmedee:hover .pm img {
+    transform: scale(1.1);
+    
+    
+    /* 10% томруулна. */
+   
+}
+.pm{
+    width: 210px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    background-color: red;
+    
+}
+
+.pm img{
+    width: 100%;
+    height: 100%;
+    
+}
+.zuunergeh {
+    width: 20px;
+    background-color: #888888;
+}
+.time {
+   display: flex;
+   gap: 5px;
+}
+.zuunergeh1 {
+    display: flex;
+    padding-top: 10px;
+
+   
+    gap: 20px;
+ }
+ .zuunergeh2 {
+    display: flex;
+   
+ }
+
+ .flex {
+    display: flex;
+ }
+
+ .gap-20{
+    gap: 20px;
+ }
+
+ .width-200{
+    width: 200px;
+ }
+ .margintop-10{
+    margin-top: 10px;
+ }
+ .marginleft-10{
+    margin-left: 10px;
+ }
+ .unshih{
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    visibility:hidden;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;  /*  undsen zuragtaigaa davhatuulah*/
+    z-index: 1;         /* davhargiin deer gargah*/
+    height: 150px;      /* undsen zuragtai hemjee ijil*/
+    width: 210px;
+
+ }
+
+ .Unshih1{
+    position: relative;  /* hoverloh 2 element 1 classd baih yostoi 1 dev*/
+ }
+ .Unshih1:hover .unshih{   /* unshih1 deer unshih text garch irne*/
+    visibility: visible;
+  }
+  .ireedui{
+    height: 245px;
+    width: 690px;
+    padding-top: 20px;
+  }
+  .sanal{
+    height: 322;
+    width: 690;
+    background-color: #407ce8;
+  }
+
+
+ 
