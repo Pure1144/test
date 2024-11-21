@@ -687,6 +687,86 @@ background-color: #407ce8;
     width: 690;
     background-color: #407ce8;
   }
+  .tsaashuzeh{
+    height: 65.37px;
+    width: 690px;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #888888;
+    border-color: #888888;
+    border-style: solid; /* urgeljilsen zuraas*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin-top: 10px;
+   
 
+
+  }
+  .comment11{
+    height: 20px;
+   
+  }
+
+.tsaashuzeh:hover {
+    background-color: aliceblue;
+    border-width: ;
+}
+
+.tsaashuzeh p{
+    font-weight: 600;
+}
+.ontslohmedee{
+    display: flex;
+    justify-content:left;
+    gap: 15px;
+}
+.mod{
+    height: 25px;
+}
+.a{
+  width: 295px;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;  /*  undsen zuragtaigaa davhatuulah*/
+  position: relative;
+   
+
+
+
+}
+
+
+ .unshih{
+    position:absolute;  /* hoverloh 2 element 1 classd baih yostoi 1 dev*/
+    background-color: red;
+    width: 300;
+    height: 200;
+    z-index: 1;
+ }
+ .Unshih2:hover .a{   /* unshih1 deer unshih text garch irne*/
+    visibility: visible;
+
+ }
+
+ .b{
+    width: 295px;
+    margin-top: 50px;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    visibility:hidden;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;  /*  undsen zuragtaigaa davhatuulah*/
+      z-index: 1;         /* davhargiin deer gargah*/
+      height: 150px;      /* undsen zuragtai hemjee ijil*/
+      width: 210px;
+  
+  
+  
+  }
 
  
