@@ -576,23 +576,24 @@ background-color: #407ce8;
 }
 .left{
     width: 70%;          /* conteiner3 undsen delgetsee 2 huvaah*/
-    height: 5000px;
+    height: fit-content;
     background-color: #5b5656;
 }
 .right{
     width: 30%;
-    height: 3301.37px;
+    /* height: 100%; */
     background-color: #c7e669;
-    display: flex;
-    justify-content: end;
+    /* display: flex;
+    justify-content: end; */
     border-left: 1px solid red;  /* zuun border ungu hemjee uguv*/
 
 }
 
 .ontsloh{
-    width: 90%;
+    width: 100%;
+    padding-left: 10%;
     background-color: #00b0f4;
-    height: 100%;
+    /* height: 100%; */
 }
 .ikhmedee {
     display: flex;
@@ -711,7 +712,7 @@ background-color: #407ce8;
 
 .tsaashuzeh:hover {
     background-color: aliceblue;
-    border-width: ;
+    border-width: 2px;
 }
 
 .tsaashuzeh p{
@@ -721,17 +722,18 @@ background-color: #407ce8;
     display: flex;
     justify-content:left;
     gap: 15px;
+    margin-bottom: 50px;
 }
 .mod{
     height: 25px;
 }
-.a{
+.aa{                 /* zurag davhatsuulsh*/
   width: 295px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   border-radius: 5px;
   background-color: rgba(0,0,0,0.5);
   top: 0;  /*  undsen zuragtaigaa davhatuulah*/
-  position: relative;
+  /* position: relative; */
    
 
 
@@ -739,34 +741,91 @@ background-color: #407ce8;
 }
 
 
- .unshih{
-    position:absolute;  /* hoverloh 2 element 1 classd baih yostoi 1 dev*/
-    background-color: red;
-    width: 300;
-    height: 200;
-    z-index: 1;
- }
- .Unshih2:hover .a{   /* unshih1 deer unshih text garch irne*/
-    visibility: visible;
-
- }
-
- .b{
-    width: 295px;
-    margin-top: 50px;
-    border-radius: 5px;
-    position: absolute;
+ .unshih3{
+    position:absolute;  
+    visibility: hidden;
     display: flex;
+    justify-content: center;
     align-items: center;
-    visibility:hidden;
     background-color: rgba(0,0,0,0.5);
-    top: 0;  /*  undsen zuragtaigaa davhatuulah*/
-      z-index: 1;         /* davhargiin deer gargah*/
-      height: 150px;      /* undsen zuragtai hemjee ijil*/
-      width: 210px;
-  
-  
-  
-  }
+    width: 295px;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+    color: white;
+ }
+ .unshih31{
+    position: relative;
+ }
 
+ .unshih31:hover .unshih3{
+    visibility: visible;
+ }
+ .trendtolgoi{
+    height: 88.33px;
+    width: 329px;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-left: 15px;
+ }
+
+ .trend1{
+    display: flex;
+    padding: 20px 0;
+    gap: 10px;;
+    /* background-color: #407ce8; */
+    border-bottom: 1px dashed gray;
+   
+ }
+ .trend10{
+    /* height: 88.33px;
+    width: 329px;
+    display: flex;
+    gap: 15px;
+    margin-left: 30px; */
+    padding: 0 50px 0 40px;
+ }
+ .leftcomment{
+    display: flex;
+    height: 25px;
+    gap: 10px;
+    padding-top: 10px;
+ }
+ .gap-5px{
+    display: flex;
+    gap: 5px;
+}
+.trend10:hover  {         /*hover img-gevel zuvhun zuragnuudiig hoverlono*/
+    transform: scale(1.1);
+    /* 10% томруулна.*/
+}
+
+.section4 {
+   
+    /* justify-content: center; */
+    /* height: 100vh; */
+    width: 1100px;
+    margin: auto;
+    background-color: white;
+    height: 1500px;
+}
+.mic{
+    display: flex;
+    margin-top: 60px;
+    height: 25px;
+}
+.tavanzurag{
+    width:100%;
+    background-color: red;
+    margin-top: 20px;
+}
+.left-zurag {
+    width: 100%;
+}
+.right-zurag {
+    width: 49%;
+}
  
