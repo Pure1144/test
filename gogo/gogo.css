@@ -807,7 +807,7 @@ background-color: #407ce8;
     width: 1100px;
     margin: auto;
     background-color: white;
-    height: 1500px;
+    height:fit-content;
 }
 .mic{
     display: flex;
@@ -816,14 +816,16 @@ background-color: #407ce8;
 }
 .tavanzurag{
     width:100%;
+    height: 500px;
     gap: 10px;
     background-color: red;
     margin-top: 20px;
-    display: flex;     
+    display: flex;  
+    justify-content: space-between;   
 }
  
 .zuragtav {
-    width: 110%;
+    width: 100%;
     
     overflow: hidden;
     /* 10% томруулна.*/
@@ -836,6 +838,7 @@ background-color: #407ce8;
     height: 100%;
     transition: all 2s;
     position: absolute;
+    top: 0;
     /* z-index: -1; */
 }
 
@@ -881,6 +884,10 @@ padding-top: 20px;
 .zuragduruv:hover img{
     transform: scale(1.1);   
 }
+.zuragduruv img{
+    width: 100%;
+    height: 100%;
+}
 .enkbyam{
     display: flex;
     justify-content: end;
@@ -890,9 +897,9 @@ padding-top: 20px;
 }   
 
 .zuragduruv {
-    width: 50%;
+    width: 49%;
     gap: 10px;
-    height: 40%;
+    height: 49%;
   
     
     overflow: hidden;
@@ -922,13 +929,147 @@ padding-top: 20px;
 }  
 
 .right-zurag{
-    width: 48%;
-    height: 48%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;  /* etseg dotroo huuhduud uuriin hemjeegeer bgtahgui ued unagna*/
+   justify-content: space-between;
+   /* align-items: ; */
+    /* height: 48%; */
 }
 
-.test{
-    background-color: #00b0f4;
+.section5 {
+   
+    /* justify-content: center; */
+    /* height: 100vh; */
+    width: 1100px;
+    margin: auto;
+    background-color:white;
+    
+    height: 1500px;
 }
+
+.hevmayag {
+    font-size: 18px;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+    color: white;
+    background-color: #00b0f4;
+    gap: 3px;
+   border-radius: 5px;
+    height: 25.5px;
+    width: 103.01px;
+}
+
+.hevmayag1{
+  
+    display: flex;
+
+    gap: 10px;
+}
+
+.ikhmedee {
+    display: flex;
+    margin-top: 15px;
+}
+.ikhmedee:hover .pm img {
+    transform: scale(1.1);
+    
+    
+    /* 10% томруулна. */
+   
+}
+.pm{
+    width: 263.75px;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    background-color: red;
+    
+}
+
+.pm img{
+    width: 100%;
+    height: 100%;
+    
+}
+.zuunergeh {
+    width: 20px;
+    background-color: #888888;
+}
+.time {
+   display: flex;
+   gap: 5px;
+}
+.zuunergeh1 {
+    display: flex;
+    padding-top: 10px;
+
+   
+    gap: 20px;
+ }
+ .zuunergeh2 {
+    display: flex;
+   
+ }
+
+ 
+ .unshih{
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    visibility:hidden;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;  /*  undsen zuragtaigaa davhatuulah*/
+    z-index: 1;         /* davhargiin deer gargah*/
+    width: 263.75px;
+    height: 230px;
+
+ }
+
+ .jalsa1{
+    position: relative;  /* hoverloh 2 element 1 classd baih yostoi 1 dev*/
+ width:240px;
+}
+ .jalsa1:hover .unshih{   /* unshih1 deer unshih text garch irne*/
+    visibility: visible;
+  }
+.border{
+    border: #888888 solid 1px;
+    /* border-color: #5b5656; */
+    width: 263.75px;
+    height: 113px;
+
+}
+.border p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.doodborder{
+    border: #888888 solid 1px;
+  border-bottom: #888888;
+  width: 253px;
+  margin-top: 10px;
+  margin-left: 5px;
+    
+
+}
+.commentshare{
+    display: flex;
+    gap: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+.hevmayag2{
+    display: flex;
+    gap: 38px;
+}
+    
+
+
 
 
 
