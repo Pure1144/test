@@ -139,8 +139,8 @@ body {
 }
 
 .first:hover {
-    color: gray;
-    /* ungu solison*/
+    color: gray;     /* ungu solison*/
+  
 }
 
 
@@ -397,8 +397,8 @@ body {
 
 }
 
-.zurgaanzurag>img {
-    /* ehnii zurgiig.*/
+.zurgaanzurag>img {       /* ehnii zurgiig.*/
+  
     width: 100%;
     height: 100%;
     transition: all 2s;
@@ -581,6 +581,7 @@ background-color: #407ce8;
 }
 .right{
     width: 30%;
+    height: fit-content;
     /* height: 100%; */
     background-color: #c7e669;
     /* display: flex;
@@ -734,10 +735,6 @@ background-color: #407ce8;
   background-color: rgba(0,0,0,0.5);
   top: 0;  /*  undsen zuragtaigaa davhatuulah*/
   /* position: relative; */
-   
-
-
-
 }
 
 
@@ -819,13 +816,120 @@ background-color: #407ce8;
 }
 .tavanzurag{
     width:100%;
+    gap: 10px;
     background-color: red;
     margin-top: 20px;
-}
-.left-zurag {
-    width: 100%;
-}
-.right-zurag {
-    width: 49%;
+    display: flex;     
 }
  
+.zuragtav {
+    width: 110%;
+    
+    overflow: hidden;
+    /* 10% томруулна.*/
+    position: relative;
+    border-radius: 2%;
+}
+
+.zuragtav>img {       /* ehnii zurgiig.*/
+    width: 100%;
+    height: 100%;
+    transition: all 2s;
+    position: absolute;
+    /* z-index: -1; */
+}
+
+.zuragtav:hover>img {
+    transform: scale(1.1);
+    /* 10% томруулна.*/
+}
+.zuragtav1 {
+    z-index: 2;
+    position: absolute;
+    bottom: 140px;
+    font-size: 15px;
+    color: white;
+    height: 35px;
+    padding-left: 30px;
+    transition: all 1s;
+}
+
+
+.gutal{
+    height: 26px;
+    width: 41.73px;
+    background-color: #407ce8;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: all 2s;
+}
+
+.gutal1{
+padding-top: 20px;
+}
+
+.gutal2{
+    padding-top: 20px;
+    }
+
+
+ 
+.zuragduruv:hover img{
+    transform: scale(1.1);   
+}
+.enkbyam{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+  
+    margin-right: 10px;
+}   
+
+.zuragduruv {
+    width: 50%;
+    gap: 10px;
+    height: 40%;
+  
+    
+    overflow: hidden;
+    /* 10% томруулна.*/
+    position: relative;
+    border-radius: 2%;
+}
+.garaa{
+    height: 26px;
+    width: 104.05px;
+    background-color: #407ce8;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.enkbyam1{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}  
+
+.right-zurag{
+    width: 48%;
+    height: 48%;
+}
+
+.test{
+    background-color: #00b0f4;
+}
+
+
+
+
