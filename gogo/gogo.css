@@ -945,7 +945,7 @@ padding-top: 20px;
     margin: auto;
     background-color:white;
     
-    height: 1500px;
+    height:fit-content;
 }
 
 .hevmayag {
@@ -957,12 +957,12 @@ padding-top: 20px;
     background-color: #00b0f4;
     gap: 3px;
    border-radius: 5px;
-    height: 25.5px;
+    height: 23px;
     width: 103.01px;
 }
 
 .hevmayag1{
-  
+    margin-top: 50px;
     display: flex;
 
     gap: 10px;
@@ -1041,8 +1041,138 @@ padding-top: 20px;
     /* border-color: #5b5656; */
     width: 263.75px;
     height: 113px;
+   
+}
+
+.border:hover {
+    background-color:#dfdada;     /* ungu solison*/
+  
+}
+
+.border p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.commentshare{
+    display: flex;
+    gap: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+         
+}
+.commentshare1{
+   margin-left: 5px;
+  margin-bottom: 1px;
+      
+}
+
+.hevmayag2{
+    display: flex;
+    gap: 38px;
+}
+.pc{
+    height: 22.99px;
+    width: 25px;
+}
+
+.ikhmedee:hover .xiaomi1 img {
+    transform: scale(1.1);
+    
+    
+    /* 10% томруулна. */
+   
+}
+.xiaomi1{
+    width: 263.75px;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+    background-color: red;
+    border-radius: 5px;
+    
+}
+
+.xiaomi1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.xiaomi2 {
+ margin-left: 10px;
+ margin-right: 10px;
+    
+}
+
+
+ .unshih2{
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    visibility:hidden;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;  /*  undsen zuragtaigaa davhatuulah*/
+    z-index: 1;         /* davhargiin deer gargah*/
+    width: 263.75px;
+    height: 160px;
+
+ }
+
+ .jalsa1{
+    position: relative;  /* hoverloh 2 element 1 classd baih yostoi 1 dev*/
+ width:240px;
+}
+ .jalsa1:hover .unshih2{   /* unshih1 deer unshih text garch irne*/
+    visibility: visible;
+  }
+
+ 
+
+
+
+.comic{
+    display: flex;
+    gap: 15px;
+    padding-top: 40px;
+}
+
+
+
+.comic1{
+    width:542.5px;
+    height: 200px;
+ 
+    position: relative;
+    overflow: hidden;
+    background-color: red;
+    border-radius: 5px;
+    
+}
+.commiccom{
+    margin-left: 10px;
+    margin-top: 15px;
 
 }
+
+.bordercommic{
+    border: #888888 solid 1px;
+   height: 130px;
+    width: 542.5px;
+    margin-left: 1px;
+}
+
+
+
+
+.bordercommic:hover {
+    background-color:#dfdada;     /* ungu solison*/
+  
+}
+
+
+
 .border p{
     margin-top: 5px;
     margin-left: 5px;
@@ -1050,24 +1180,102 @@ padding-top: 20px;
 .doodborder{
     border: #888888 solid 1px;
   border-bottom: #888888;
-  width: 253px;
-  margin-top: 10px;
-  margin-left: 5px;
-    
+  width: 243px;
+  margin-left: 10px;
+  
+}
+
+.doodborder2{
+    border: #888888 solid 1px;
+  border-bottom: #888888;
+  width: 525px;
+  margin-left: 10px;
+  
+}
+.commentshare2{
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.unshih3{
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    visibility:hidden;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;  /*  undsen zuragtaigaa davhatuulah*/
+    z-index: 1;         /* davhargiin deer gargah*/
+    width: 542.5px;
+    height: 200px;
+
+ }
+ .comic2:hover .unshih3{   /* unshih1 deer unshih text garch irne*/
+    visibility: visible;
+  }
+
+
+ .comic2{
+    position: relative;  /* hoverloh 2 element 1 classd baih yostoi 1 dev*/
+    width:542.5px;
+    overflow: hidden;  /* 10% томруулна.*/   
+}
+
+.comic2 img {
+    width: 100%;
+    transition: all 1s;
+}
+
+.comic2:hover img {
+    transform: scale(1.1);
+    /* 10% томруулна.*/
+}
+
+.comic3{
+    margin-top: 10px;
+}
+
+.comic4{
+  display: flex;
+}
+
+.section6 {
+    display: flex;
+    /* justify-content: center; */
+    /* height: 100vh; */
+    width: 1406px;
+    height: 1000px;
+    margin: auto;
+    background-color: rgb(255, 0, 140);
+
+    justify-content: center;
 
 }
-.commentshare{
+
+.container6 {
+    width: 1100px;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
     display: flex;
-    gap: 25px;
-    margin-left: 10px;
-    margin-top: 5px;
-    
+   
 }
-.hevmayag2{
-    display: flex;
-    gap: 38px;
+
+.center{
+    width: 30%;
+    height: 100opx;
+    /* height: 100%; */
+    background-color: #c7e669;
+    /* display: flex;
+    justify-content: end; */
+    border-left: 1px solid red;  /* zuun border ungu hemjee uguv*/
+
 }
-    
+
+
+
 
 
 
