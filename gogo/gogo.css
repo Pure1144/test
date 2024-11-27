@@ -1432,8 +1432,8 @@ body {
 }
 
 .delgerengui {
-    /* hidden hiih*/
-    visibility: visible;
+    color: #dfdada;
+    visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -1442,11 +1442,18 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
-    justify-content: center;
+   justify-content: center;
     font-size: 12px;
 }
+.amar1{
+    position: relative;
+    visibility: visible;
+    overflow: hidden;
+}
 
-.amar:hover .delgerengui {
+
+
+.amar1:hover .delgerengui {
     visibility: visible;
 }
 .tootoo {
